@@ -1,0 +1,93 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 800px;
+  margin: 100px auto;
+  border-left: 2px solid #58585A;
+  background: url("../img/fondo.jpg");
+  background-size: cover;
+}
+.main .data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+.main .info {
+  width: 250px;
+  padding: 10px;
+}
+.main header {
+  background-color: #58585A;
+  color: #9AC247;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.money-table {
+  color: #58585A;
+  margin-top: 25px;
+}
+.money-table th {
+  font-size: 13px;
+  padding: 0 8px;
+}
+.money-table td {
+  font-size: 22px;
+  color: #FBFDD0;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.money-table i:before {
+  color: #58585A;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+.big-button {
+  width: 300px;
+  margin: 25px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FBFDD0;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 15px 2px rgba(0, 0, 0, 0.55);
+  border: none;
+  transition: background 1s ease;
+  font-family: "Varela Round", sans-serif;
+}
+.big-button:hover {
+  background-color: #c4db94;
+  cursor: pointer;
+  transition: background 1s ease;
+  color: #58585A;
+}
+
+.totals {
+  font-size: 28px;
+  color: #9AC247;
+  font-weight: 700;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.55);
+  padding: 5px 25px;
+  width: 150px;
+  border-radius: 20px;
+  height: 35px;
+  line-height: 35px;
+}
+
+/*# sourceMappingURL=styles.css.map */
